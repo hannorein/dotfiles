@@ -1,0 +1,11 @@
+[user]
+	email = hanno@hanno-rein.de
+	name = Hanno Rein
+[receive]
+	denyCurrentBranch = warn
+[diff]
+	tool = vimdiff
+[push]
+	default = simple
+[color]
+	ui = auto
