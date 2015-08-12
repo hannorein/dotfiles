@@ -94,39 +94,12 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>302</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>741 97 678 358 0 0 1440 877 </string>
+	<string>885 218 1056 780 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>510 211 924 485 0 0 1440 877 </string>
+	<string>860 475 924 485 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>80 398 570 451 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>87 386 570 451 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>268 102 752 621 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>252 426 570 451 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 4</key>
-	<string>85 152 570 451 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 5</key>
-	<string>267 354 570 451 0 0 1440 877 </string>
+	<string>407 745 585 451 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -680,7 +653,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>6x13 13</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -856,9 +829,9 @@
 		</dict>
 	</array>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>461032000.84298801</real>
+	<real>461082620.17053699</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>461032000.84337801</real>
+	<real>461082620.17077303</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -921,7 +894,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-08-12T00:13:08Z</date>
+	<date>2015-08-12T14:30:09Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
