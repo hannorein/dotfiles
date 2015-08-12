@@ -94,22 +94,39 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSTableView Columns KeyBingingTable</key>
+	<array>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATCG
+		</data>
+		<string>198</string>
+		<data>
+		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
+		hAErATGG
+		</data>
+		<string>302</string>
+	</array>
+	<key>NSTableView Hidden Columns KeyBingingTable</key>
+	<array/>
+	<key>NSTableView Sort Ordering KeyBingingTable</key>
+	<array/>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>885 218 1056 780 0 0 2560 1417 </string>
+	<string>741 97 678 358 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>549 456 924 485 0 0 2560 1417 </string>
+	<string>510 211 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>574 255 703 715 0 0 2560 1417 </string>
+	<string>619 279 730 598 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>87 349 655 559 0 0 2560 1417 </string>
+	<string>48 204 490 351 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>38 1030 505 351 0 0 2560 1417 </string>
+	<string>268 102 752 621 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>150 703 505 351 0 0 2560 1417 </string>
+	<string>252 426 570 451 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>217 196 505 351 0 0 2560 1417 </string>
+	<string>85 152 570 451 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>39 677 505 351 0 0 2560 1417 </string>
+	<string>267 354 570 451 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -839,9 +856,9 @@
 		</dict>
 	</array>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>461082620.17053699</real>
+	<real>461032000.84298801</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>461082620.17077303</real>
+	<real>461032000.84337801</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -904,7 +921,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-08-12T14:30:09Z</date>
+	<date>2015-08-12T00:13:08Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -942,7 +959,7 @@
 	<key>UseLionStyleFullscreen</key>
 	<true/>
 	<key>WindowNumber</key>
-	<true/>
+	<false/>
 	<key>WindowStyle</key>
 	<integer>0</integer>
 	<key>WordCharacters</key>
