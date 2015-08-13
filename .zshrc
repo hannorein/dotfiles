@@ -51,7 +51,7 @@ ZSH_THEME="hanno"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gitfast brew last-working-dir)
+plugins=(gitfast brew)
 
 # User configuration
 
@@ -66,8 +66,11 @@ export DISABLE_UNTRACKED_FILES_DIRTY=true
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/dotfiles/virtualenv-auto-activate.sh
-
 setopt no_share_history
+cd "$(<~/.lastdirectory)"
+export PROMPT_COMMAND='printf %s "$PWD" > ~/.lastdirectory'
+prmptcmd() { eval "$PROMPT_COMMAND" }
+precmd_functions=(prmptcmd)
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
