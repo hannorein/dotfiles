@@ -66,6 +66,8 @@ export EDITOR=vim
 source $ZSH/oh-my-zsh.sh
 source $HOME/dotfiles/virtualenv-auto-activate.sh
 
+setopt no_share_history
+
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
