@@ -60,6 +60,7 @@ export PATH="$HOME/localinstalls/bin":$PATH
 
 export PIP_REQUIRE_VIRTUALENV=true
 export EDITOR=vim
+export DISABLE_UNTRACKED_FILES_DIRTY=true
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
