@@ -84,3 +84,5 @@ precmd_functions=(prmptcmd)
 # Example aliases
 alias kalc='clear && kalc -s -m'
 alias vi='vim'
+alias c='clear'
+
