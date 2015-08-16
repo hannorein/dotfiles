@@ -59,9 +59,6 @@ function _virtualenv_auto_activate() {
               _VENV_NAME=$(basename `pwd`)
               VIRTUAL_ENV_DISABLE_PROMPT=1
               source venv/bin/activate
-              _OLD_VIRTUAL_PS1="$PS1"
-              PS1="($_VENV_NAME)$PS1"
-              export PS1
             fi
             echo Activated virtualenv \"$_VENV_NAME\".
         fi
