@@ -16,5 +16,5 @@ for temp in $($SENSORS | grep "^Core" | grep -e '+.*C' | cut -f 2 -d '+' | cut -
     let count+=1
 done
 temp=$(echo "$sum/$count" | bc)
-$GMETRIC -t float -n "cpu_temp" -u "Celcius" -v $temp
+$GMETRIC -t float -n "cpu_temp" -u "Celsius" -v $temp
 #echo $temp
