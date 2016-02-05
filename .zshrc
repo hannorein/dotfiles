@@ -88,3 +88,5 @@ alias kalc='clear && kalc -s -m'
 alias vi='vim'
 alias c='clear'
 
+bindkey '^[begin' beginning-of-line
+bindkey '^[end' end-of-line
