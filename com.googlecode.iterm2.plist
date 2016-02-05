@@ -114,19 +114,35 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>741 97 678 358 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>510 211 924 485 0 0 1440 877 </string>
+	<string>127 298 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>619 279 730 598 0 0 1440 877 </string>
+	<string>47 504 490 351 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>48 204 490 351 0 0 1440 877 </string>
+	<string>914 83 490 351 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 10</key>
+	<string>706 141 490 351 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 11</key>
+	<string>754 248 670 598 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 12</key>
+	<string>603 445 490 351 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 13</key>
+	<string>498 156 490 351 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>268 102 752 621 0 0 1440 877 </string>
+	<string>852 168 532 624 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>252 426 570 451 0 0 1440 877 </string>
+	<string>392 525 490 351 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>85 152 570 451 0 0 1440 877 </string>
+	<string>395 89 490 351 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>267 354 570 451 0 0 1440 877 </string>
+	<string>13 476 490 351 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 6</key>
+	<string>186 317 712 481 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 7</key>
+	<string>819 52 490 351 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 8</key>
+	<string>23 65 496 793 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 9</key>
+	<string>702 526 490 351 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -526,6 +542,13 @@
 					<key>Text</key>
 					<string>0x1b 0x1b 0x5b 0x44</string>
 				</dict>
+				<key>0xf702-0x300000</key>
+				<dict>
+					<key>Action</key>
+					<integer>10</integer>
+					<key>Text</key>
+					<string>begin</string>
+				</dict>
 				<key>0xf703-0x220000</key>
 				<dict>
 					<key>Action</key>
@@ -553,6 +576,13 @@
 					<integer>11</integer>
 					<key>Text</key>
 					<string>0x1b 0x1b 0x5b 0x43</string>
+				</dict>
+				<key>0xf703-0x300000</key>
+				<dict>
+					<key>Action</key>
+					<integer>10</integer>
+					<key>Text</key>
+					<string>end</string>
 				</dict>
 				<key>0xf704-0x20000</key>
 				<dict>
@@ -855,10 +885,12 @@
 			<string>/Users/rein</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesLost</key>
+	<true/>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>461032000.84298801</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>461032000.84337801</real>
+	<real>476334203.83928198</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -917,11 +949,11 @@
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedURL</key>
-	<string>http://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-08-12T00:13:08Z</date>
+	<date>2016-02-05T03:02:50Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -965,6 +997,6 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>2.1.1</string>
+	<string>2.1.4</string>
 </dict>
 </plist>
