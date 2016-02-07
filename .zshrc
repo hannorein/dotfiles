@@ -87,6 +87,7 @@ precmd_functions=(prmptcmd)
 alias kalc='clear && kalc -s -m'
 alias vi='vim'
 alias c='clear'
+alias nb='jupyter notebook'
 
 bindkey '^[begin' beginning-of-line
 bindkey '^[end' end-of-line
