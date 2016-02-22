@@ -87,6 +87,7 @@ precmd_functions=(prmptcmd)
 alias kalc='clear && kalc -s -m'
 alias vi='vim'
 alias c='clear'
+alias m='make -j'
 alias nb='jupyter notebook --no-browser'
 
 bindkey '^[begin' beginning-of-line
