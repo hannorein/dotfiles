@@ -72,6 +72,8 @@
 	<integer>0</integer>
 	<key>IRMemory</key>
 	<integer>4</integer>
+	<key>IndicateBellsInDockBadgeLabel</key>
+	<false/>
 	<key>JobName</key>
 	<true/>
 	<key>LeftCommand</key>
@@ -94,55 +96,76 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
-	<key>NSTableView Columns KeyBingingTable</key>
-	<array>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATCG
-		</data>
-		<string>198</string>
-		<data>
-		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
-		hAErATGG
-		</data>
-		<string>302</string>
-	</array>
-	<key>NSTableView Hidden Columns KeyBingingTable</key>
-	<array/>
-	<key>NSTableView Sort Ordering KeyBingingTable</key>
-	<array/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
+	<false/>
+	<key>NSTableView Columns v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGNjdYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoK4HCA8aGxwdHh8gJjAxMlUkbnVsbNIJCgsOWk5TLm9iamVjdHNWJGNsYXNzogwN
+	gAKACoAN0xAJChEVGVdOUy5rZXlzoxITFIADgASABaMWFxiABoAHgAiACVpJZGVudGlm
+	aWVyVVdpZHRoVkhpZGRlblEwI0BowAAAAAAACNIhIiMkWiRjbGFzc25hbWVYJGNsYXNz
+	ZXNcTlNEaWN0aW9uYXJ5oiMlWE5TT2JqZWN00xAJCicrGaMSExSAA4AEgAWjLC0YgAuA
+	DIAIgAlRMSNAdCAAAAAAANIhIjM0Xk5TTXV0YWJsZUFycmF5ozM1JVdOU0FycmF5XxAP
+	TlNLZXllZEFyY2hpdmVy0Tg5VUFycmF5gAEACAARABoAIwAtADIANwBGAEwAUQBcAGMA
+	ZgBoAGoAbABzAHsAfwCBAIMAhQCJAIsAjQCPAJEAnACiAKkAqwC0ALUAugDFAM4A2wDe
+	AOcA7gDyAPQA9gD4APwA/gEAAQIBBAEGAQ8BFAEjAScBLwFBAUQBSgAAAAAAAAIBAAAA
+	AAAAADoAAAAAAAAAAAAAAAAAAAFM
+	</data>
+	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
+	AAGGoKMHCA1VJG51bGzSCQoLDFpOUy5vYmplY3RzViRjbGFzc6CAAtIODxARWiRjbGFz
+	c25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjEBITV05TQXJyYXlYTlNPYmplY3Rf
+	EA9OU0tleWVkQXJjaGl2ZXLRFhdVQXJyYXmAAQgRGiMtMjc7QUZRWFlbYGt0g4ePmKqt
+	swAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
+	</data>
+	<key>NSTableView Supports v2 KeyBingingTable</key>
+	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>741 97 678 358 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>127 298 924 485 0 0 1440 877 </string>
+	<string>127 414 606 456 0 0 1440 877 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>410 376 620 392 0 0 1440 877 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>269 306 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>47 504 490 351 0 0 1440 877 </string>
+	<string>6 70 664 807 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>914 83 490 351 0 0 1440 877 </string>
+	<string>286 142 520 482 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 10</key>
-	<string>706 141 490 351 0 0 1440 877 </string>
+	<string>38 524 490 352 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 11</key>
-	<string>754 248 670 598 0 0 1440 877 </string>
+	<string>857 130 490 352 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 12</key>
-	<string>603 445 490 351 0 0 1440 877 </string>
+	<string>38 96 490 352 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 13</key>
-	<string>498 156 490 351 0 0 1440 877 </string>
+	<string>866 144 550 494 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 14</key>
+	<string>687 186 490 351 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 15</key>
+	<string>941 130 490 351 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>852 168 532 624 0 0 1440 877 </string>
+	<string>671 106 742 729 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
-	<string>392 525 490 351 0 0 1440 877 </string>
+	<string>851 157 490 352 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
-	<string>395 89 490 351 0 0 1440 877 </string>
+	<string>876 495 490 352 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>13 476 490 351 0 0 1440 877 </string>
+	<string>14 158 748 495 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>186 317 712 481 0 0 1440 877 </string>
+	<string>15 310 490 352 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 7</key>
-	<string>819 52 490 351 0 0 1440 877 </string>
+	<string>710 525 490 352 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 8</key>
-	<string>23 65 496 793 0 0 1440 877 </string>
+	<string>15 109 664 768 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 9</key>
-	<string>702 526 490 351 0 0 1440 877 </string>
+	<string>26 69 898 794 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -885,12 +908,28 @@
 			<string>/Users/rein</string>
 		</dict>
 	</array>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
+	<key>NoSyncInstallationId</key>
+	<string>9884E6A2-C629-4A57-89BA-28C2AA49F1D5</string>
+	<key>NoSyncNeverAskAboutSettingAlternateMouseScroll</key>
+	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLost</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>488057683.29012799</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>461032000.84298801</real>
+	<real>477599509.01559103</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>476334203.83928198</real>
+	<real>487968253.462731</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -948,12 +987,14 @@
 	<integer>3</integer>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=55</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-02-05T03:02:50Z</date>
+	<date>2016-10-28T01:05:18Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -980,6 +1021,8 @@
 	<array>
 		<string>Jobs</string>
 	</array>
+	<key>TraditionalVisualBell</key>
+	<true/>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>
 	<key>URLHandlersByGuid</key>
@@ -997,6 +1040,6 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>3.0.11</string>
 </dict>
 </plist>
