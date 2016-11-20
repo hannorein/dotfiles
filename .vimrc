@@ -65,3 +65,4 @@ set expandtab
 " Larger buffer for copying
 set viminfo='20,<1000
 
+:imap ;; <Esc>
