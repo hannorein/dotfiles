@@ -66,3 +66,6 @@ set expandtab
 set viminfo='20,<1000
 
 :imap ;; <Esc>
+:imap :w<Enter> <Esc>:w<Enter>
+:imap :wq<Enter> <Esc>:wq<Enter>
+
