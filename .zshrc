@@ -63,6 +63,7 @@ export EDITOR=vim
 export DISABLE_UNTRACKED_FILES_DIRTY=true
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 export KEYTIMEOUT=1
+export PDSH_RCMD_TYPE=ssh
 export REB_DIR="$HOME/git/rebound"
 
 # export MANPATH="/usr/local/man:$MANPATH"
