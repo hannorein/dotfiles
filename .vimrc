@@ -46,6 +46,7 @@ set backspace=indent,eol,start
 :inoremap <Esc>OS -
 
 let g:netrw_altv = 1
+au BufReadPost *.cl set syntax=c
 
 
 "if has("multi_byte")
