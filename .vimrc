@@ -23,6 +23,12 @@ set ruler
 set hlsearch
 "%!//#set hls
 set mouse=a
+if has("mouse_sgr")
+    set ttymouse=sgr
+else
+    set ttymouse=xterm2
+end
+set backspace=indent,eol,start
 :inoremap <Esc>Oq 1
 :inoremap <Esc>Or 2
 :inoremap <Esc>Os 3
