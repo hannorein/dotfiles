@@ -1,3 +1,9 @@
+set nocompatible
+
+execute pathogen#infect()
+
+set runtimepath+=~/git/ultisnips
+
 set viminfo='50,\"100,:20,%,n~/.viminfo
 
 function! ResCur()
@@ -12,6 +18,16 @@ augroup resCur
     autocmd BufWinEnter * call ResCur()
 augroup END
 
+let g:UltiSnipsSnippetsDir="~/.vim/myUltiSnips"
+let g:UltiSnipsSnippetDirectories = ['myUltiSnips']
+let g:UltiSnipsUsePythonVersion = 3
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsListSnippets = '<c-tab>'
+let g:UltiSnipsJumpForwardTrigger = '<c-j>'
+let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
+"let g:UltiSnipsExpandTrigger = '<tab>'
+"let g:UltiSnipsJumpForwardTrigger = '<tab>'
+"let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 filetype on
 filetype plugin on
