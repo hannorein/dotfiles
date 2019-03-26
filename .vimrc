@@ -1,3 +1,9 @@
+set nocompatible
+
+execute pathogen#infect()
+
+set runtimepath+=~/git/ultisnips
+
 set viminfo='50,\"100,:20,%,n~/.viminfo
 
 function! ResCur()
@@ -12,6 +18,16 @@ augroup resCur
     autocmd BufWinEnter * call ResCur()
 augroup END
 
+let g:UltiSnipsSnippetsDir="~/.vim/myUltiSnips"
+let g:UltiSnipsSnippetDirectories = ['myUltiSnips']
+let g:UltiSnipsUsePythonVersion = 3
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsListSnippets = '<c-tab>'
+let g:UltiSnipsJumpForwardTrigger = '<c-j>'
+let g:UltiSnipsJumpBackwardTrigger = '<c-k>'
+"let g:UltiSnipsExpandTrigger = '<tab>'
+"let g:UltiSnipsJumpForwardTrigger = '<tab>'
+"let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 filetype on
 filetype plugin on
@@ -23,6 +39,12 @@ set ruler
 set hlsearch
 "%!//#set hls
 set mouse=a
+if has("mouse_sgr")
+    set ttymouse=sgr
+else
+    set ttymouse=xterm2
+end
+set backspace=indent,eol,start
 :inoremap <Esc>Oq 1
 :inoremap <Esc>Or 2
 :inoremap <Esc>Os 3
@@ -40,6 +62,7 @@ set mouse=a
 :inoremap <Esc>OS -
 
 let g:netrw_altv = 1
+au BufReadPost *.cl set syntax=c
 
 
 "if has("multi_byte")
