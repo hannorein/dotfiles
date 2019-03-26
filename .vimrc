@@ -20,7 +20,7 @@ augroup END
 
 let g:UltiSnipsSnippetsDir="~/.vim/myUltiSnips"
 let g:UltiSnipsSnippetDirectories = ['myUltiSnips']
-let g:UltiSnipsUsePythonVersion = 3
+"let g:UltiSnipsUsePythonVersion = 3
 let g:UltiSnipsExpandTrigger = '<tab>'
 let g:UltiSnipsListSnippets = '<c-tab>'
 let g:UltiSnipsJumpForwardTrigger = '<c-j>'
