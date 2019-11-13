@@ -92,3 +92,25 @@ set viminfo='20,<1000
 :imap :w<Enter> <Esc>:w<Enter>
 :imap :wq<Enter> <Esc>:wq<Enter>
 
+
+
+function! TmuxSend()
+    let tex_file = expand('%:p')    " current file
+    let tex_cmd = 'latexmk -pdf -interaction=nonstopmode -cd ' . tex_file
+    let tmux_cmd = 'tmux send-keys -t vim_output.0 "' . tex_cmd . '" ENTER'
+    let output = system(tmux_cmd)
+endfunction
+
+autocmd BufWrite *.tex :call TmuxSend()
+
+
+
+fun! ShowFuncName()
+  let lnum = line(".")
+  let col = col(".")
+  echohl ModeMsg
+  echo getline(search("^[^ \t#/]\\{2}.*[^:]\s*$", 'bW'))
+  echohl None
+  call search("\\%" . lnum . "l" . "\\%" . col . "c")
+endfun
+map f :call ShowFuncName() <CR>

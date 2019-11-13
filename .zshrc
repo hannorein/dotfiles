@@ -58,6 +58,7 @@ plugins=(gitfast brew)
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/opt/X11/bin"
 export PATH="$HOME/localinstalls/bin":$PATH
+export PATH="/Library/TeX/texbin/":$PATH
 
 export PIP_REQUIRE_VIRTUALENV=true
 export EDITOR=vim
