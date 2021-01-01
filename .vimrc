@@ -1,6 +1,6 @@
 set nocompatible
 
-execute pathogen#infect()
+silent! execute pathogen#infect()
 
 set runtimepath+=~/git/ultisnips
 
