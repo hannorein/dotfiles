@@ -78,6 +78,9 @@ export PROMPT_COMMAND='printf %s "$PWD" > ~/.lastdirectory'
 prmptcmd() { eval "$PROMPT_COMMAND" }
 precmd_functions=(prmptcmd)
 
+if [ "$EUID" -eq 0 ]
+  then export PROMPT="%{$fg_bold[red]%}%n@%m:%{$fg[cyan]%}%~ ${ret_status}%{$reset_color%}"
+fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
