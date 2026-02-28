@@ -104,4 +104,13 @@ endfunction
 autocmd BufWrite *.tex :call TmuxSend()
 
 
+" Scroll up by 1 line instead of 3
+map <ScrollWheelUp> <C-Y>
+imap <ScrollWheelUp> <C-X><C-Y>
 
+" Scroll down by 1 line instead of 3
+map <ScrollWheelDown> <C-E>
+imap <ScrollWheelDown> <C-X><C-E>
+
+" Avoid coursur at bottom or top
+set scrolloff=4

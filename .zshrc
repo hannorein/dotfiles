@@ -47,7 +47,7 @@ ZSH_THEME="hanno"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=~/dotfiles/zsh_custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -82,6 +82,9 @@ export PROMPT_COMMAND='printf %s "$PWD" > ~/.lastdirectory'
 prmptcmd() { eval "$PROMPT_COMMAND" }
 precmd_functions=(prmptcmd)
 
+if [ "$EUID" -eq 0 ]
+  then export PROMPT="%{$fg_bold[red]%}%n@%m:%{$fg[cyan]%}%~ ${ret_status}%{$reset_color%}"
+fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
