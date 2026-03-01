@@ -60,8 +60,10 @@ plugins=(gitfast brew)
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/opt/X11/bin"
 export PATH="$HOME/localinstalls/bin":$PATH
 export PATH="/Library/TeX/texbin/":$PATH
-export PATH=/opt/homebrew/bin:$PATH
-eval $(/opt/homebrew/bin/brew shellenv)
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    export PATH=/opt/homebrew/bin:$PATH
+    eval $(/opt/homebrew/bin/brew shellenv)
+fi
 
 
 export PIP_REQUIRE_VIRTUALENV=true

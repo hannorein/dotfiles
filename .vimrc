@@ -1,5 +1,9 @@
 set nocompatible
 
+let mapleader = " "
+nnoremap <leader>m :call job_start(['tmux', 'send-keys', '-t', '1', 'OPT=-DPERF=1 m', 'C-m'])<CR>
+nnoremap <leader>r :call job_start(['tmux', 'send-keys', '-t', '1', './rebound 1e6', 'C-m'])<CR>
+
 silent! execute pathogen#infect()
 
 set runtimepath+=~/git/ultisnips
