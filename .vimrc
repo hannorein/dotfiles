@@ -1,8 +1,9 @@
 set nocompatible
 
 let mapleader = " "
-nnoremap <leader>m :call job_start(['tmux', 'send-keys', '-t', '1', 'OPT=-DPERF=1 m', 'C-m'])<CR>
-nnoremap <leader>r :call job_start(['tmux', 'send-keys', '-t', '1', './rebound 1e6', 'C-m'])<CR>
+nnoremap <leader>c :call job_start(['tmux', 'send-keys', '-t', '1', 'make clean', 'C-m'])<CR>
+nnoremap <leader>m :call job_start(['tmux', 'send-keys', '-t', '1', 'm', 'C-m'])<CR>
+nnoremap <leader>r :call job_start(['tmux', 'send-keys', '-t', '1', 'make run', 'C-m'])<CR>
 
 silent! execute pathogen#infect()
 
