@@ -79,7 +79,14 @@ function! Tab_Completion()
 endfunction
 
 inoremap <Tab> <C-R>=Tab_Completion()<CR>
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
+" Move between buffers with tab
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprev<CR>
+
+" Do not require to save buffers
+set hidden
 
 "if has("multi_byte")
 "  if &termencoding == ""

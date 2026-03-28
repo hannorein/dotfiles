@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
+# No Git pager
+export GIT_PAGER=cat
+
 
 
 # Set name of the theme to load.
