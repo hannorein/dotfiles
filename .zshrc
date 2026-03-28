@@ -101,6 +101,7 @@ alias vi='vim'
 alias c='clear'
 alias m='make -j'
 alias nb='jupyter notebook --no-browser'
+alias gdb='gdb -q'
 
 bindkey '^[begin' beginning-of-line
 bindkey '^[end' end-of-line

@@ -70,6 +70,17 @@ let g:netrw_altv = 1
 au BufReadPost *.cl set syntax=c
 
 
+function! Tab_Completion()
+  if col('.') > 1 && strpart( getline('.'), col('.') - 2, 1 ) =~ '^\w'
+    return "\<C-N>"
+  else
+    return "\<Tab>"
+  endif
+endfunction
+
+inoremap <Tab> <C-R>=Tab_Completion()<CR>
+
+
 "if has("multi_byte")
 "  if &termencoding == ""
 "    let &termencoding = &encoding
